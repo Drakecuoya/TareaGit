@@ -1,5 +1,7 @@
-Creador: Jorge Fuertes Borrella.
-Curso: 1º DAW. Lenguaje de marcas.
+Creador: Jorge Fuertes Borrella. Curso: 1º DAW. Lenguaje de marcas.
+
+
+Todas las historias y personajes pertenecen al foro de rol Tierras de Esperanza y cada texto pertenece a sus respectivos usuarios.
 
 
 Notas:
