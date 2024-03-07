@@ -2,6 +2,9 @@ Creador: Jorge Fuertes Borrella.
 Curso: 1º DAW. Lenguaje de marcas.
 
 
+Todas las historias y personajes pertenecen al foro de rol Tierras de Esperanza y cada texto pertenece a sus respectivos usuarios.
+
+
 Notas:
 
 -Backgrounds de details no han vuelto a funcionar en navegadores: edge, chrome, firefox. Funcionalidad al 100% en Opera.Testeado en todos los navegadores.
