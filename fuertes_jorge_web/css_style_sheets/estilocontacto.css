@@ -1,0 +1,120 @@
+header {
+    margin: 0 auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/290/829/large_2x/vintage-styled-mountains-banner-design-with-mountains-mountains-sunset-silhouette-illustration-travel-climber-camping-ski-resort-template-silhouette-vector.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+header img {
+    max-width: 500px;
+    align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    header img {
+        max-width: 400px;
+    }
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+}
+
+.links li {
+    float: left;
+}
+
+.links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.links li a.active {
+    background-color: #aa6204;
+}
+
+.links li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+    .links li.right,
+    .links li {
+        float: none;
+    }
+    .links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    
+        display: block;
+        align-items: center;
+        justify-content: center;
+    
+        position:unset;
+    }
+}
+
+/* HASTA AQUÍ TENEMOS HEADER Y LA BARRA DE NAVEGACIÓN. COMENZAMOS CON SU CONTENIDO PROPIO. */
+body {
+    text-align: justify;
+    background-color: rgb(77, 35, 5);
+}
+h1 {
+    text-align: center;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.4), 0px -3px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+    font-family: 'Kalnia', serif;
+    color: aliceblue;
+}
+.logos {
+    vertical-align: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset {
+    margin: auto;
+    width: 550px; 
+    margin: auto; 
+    margin-top: auto; 
+    background-image: url(https://wallpapercave.com/wp/wp2021760.jpg);
+}
+
+#submitbutton{
+    background-color: rgb(99, 7, 7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: #000;
+    border-style: groove;
+    align-items: center;
+    display: block;
+    margin: auto;
+}

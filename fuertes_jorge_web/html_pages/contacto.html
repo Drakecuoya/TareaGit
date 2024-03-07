@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../css_style_sheets/estilocontacto.css">
+    <link rel="icon" href="../images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="logos"> <img src="../images/logotipo_tde_3t_parte2_redim.png" alt="tde"></div>
+</header>
+
+<body>
+    <div class="links">
+        <ul style="list-style-type: none;">
+            <li><a href="actualidad.html">ACTUALIDAD</a></li>
+            <li><a href="lugares.html">LUGARES</a></li>
+            <li><a href="historia.html">CRONOLOGÍA</a></li>
+            <li><a href="personajes.html">PERSONAJES</a></li>
+            <li><a class="active" href="contacto.html">CONTACTO</a></li>
+            <li><a href="https://www.tierrasdeesperanza.foroactivo.com">FORO</a></li>
+        </ul>
+    </div>
+
+    <h1>¿TIENES DUDAS DE NUESTRA HISTORIA?
+        ¿TIENES SUGERENCIAS PARA NUESTRA WEB?
+        <br><br>
+        ¡RELLENA ESTE FORMULARIO Y PREGUNTA SIN MIEDO!
+    </h1><br>
+
+    <form>
+        <form action="mailto:jfuertesb01@gmail.com" ; method="post" ; enctype="text/plain">
+            <fieldset>
+                <fieldset>
+                    <legend>Datos de Usuario</legend>
+                    Nombre:
+                    <input name="Nombre" ; type="text" ; value="Tu nombre"></input>
+                    <br><br>E-mail:
+                    <input name="E-mail" ; type="email" ; value="tucorreo@loquesea.com"></input>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Selecciona en qué categoría tienes dudas</legend>
+                    <br><input type="checkbox">Actualidad</input>
+                    <br><input type="checkbox">Lugares</input>
+                    <br><input type="checkbox">Personajes</input>
+                    <br><input type="checkbox">Foro</input>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Opiniones</legend>
+                    Introduce tu duda en este cuadro, responderemos lo más rápido posible
+                    <br><br><textarea></textarea>
+
+
+                    <br><br>¿Le parece entendible el contenido de la web?
+                    <br><br><select value="Valor" ; name="Selecciona una" ;>
+                        <nav>
+                            <option value="bien">Bien</option>
+                            <option value="regular">Regular</option>
+                            <option value="mal">Mal</option>
+                        </nav>
+                    </select>
+                </fieldset>
+
+
+                <br><br><input type="submit" ; value="ENVIAR"; id="submitbutton"></input>
+            </fieldset>
+        </form>
+
+    </form>
+
+</body>
+</html>

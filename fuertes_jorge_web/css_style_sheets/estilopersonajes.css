@@ -1,0 +1,94 @@
+header {
+    margin: 0 auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/290/829/large_2x/vintage-styled-mountains-banner-design-with-mountains-mountains-sunset-silhouette-illustration-travel-climber-camping-ski-resort-template-silhouette-vector.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+header img {
+    max-width: 500px;
+    align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    header img {
+        max-width: 400px;
+    }
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+}
+
+.logos {
+    vertical-align: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links li {
+    float: left;
+}
+
+.links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.links li a.active {
+    background-color: #aa6204;
+}
+
+.links li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+      
+    .links li.right,
+    .links li {
+        float: none;
+    }
+    .links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    
+        display: block;
+        align-items: center;
+        justify-content: center;
+    
+        position:unset;
+    }
+}
+
+/* HASTA AQUÍ TENEMOS HEADER Y LA BARRA DE NAVEGACIÓN. COMENZAMOS CON LAS IMÁGENES. */
+body{
+    background-color: rgb(77, 35, 5);
+}
+
+.column img {
+padding: 10px;
+vertical-align: middle;
+}
